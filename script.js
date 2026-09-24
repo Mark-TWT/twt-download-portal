@@ -28,8 +28,8 @@ function downloadPdf() {
 
     const link = document.createElement("a");
 
-link.href = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf";
-link.download = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf";
+a.href = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf.pdf";
+a.download = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf.pdf";
 
 
     document.body.appendChild(link);
