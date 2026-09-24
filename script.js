@@ -11,30 +11,13 @@ function downloadPdf() {
     }
 
     const a = document.createElement("a");
-    a.href = "whitepaper.pdf";
+
+    a.href = "./whitepaper.pdf";
     a.download = "TWT-Whitepaper.pdf";
 
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-}
-            body:
-                "firstname=" + encodeURIComponent(firstName) +
-                "&lastname=" + encodeURIComponent(lastName) +
-                "&company=" + encodeURIComponent(company) +
-                "&email=" + encodeURIComponent(email)
-        }
-    );
-
-    const link = document.createElement("a");
-
-a.href = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf.pdf";
-a.download = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN-ONEPAGER-ENG.pdf.pdf";
-
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
 
     alert("Thank you. Your download has started.");
 }
