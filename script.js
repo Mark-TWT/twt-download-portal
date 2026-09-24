@@ -12,7 +12,7 @@ function downloadPdf() {
 
     const a = document.createElement("a");
 
-    a.href = "./whitepaper.pdf";
+    a.href = "whitepaper.pdf";
     a.download = "TWT-Whitepaper.pdf";
 
     document.body.appendChild(a);
