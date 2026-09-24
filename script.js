@@ -10,12 +10,6 @@ function downloadPdf() {
         return;
     }
 
-    const link = document.createElement("a");
-
-    link.href = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN ONEPAGER ENG.pdf";
-    link.download = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN ONEPAGER ENG.pdf";
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.location.href =
+        "MULTI-LEVEL-INVERTER-ARCHITEKTUREN ONEPAGER ENG.pdf";
 }
