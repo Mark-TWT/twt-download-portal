@@ -15,6 +15,23 @@ if (!emailPattern.test(email)) {
     alert("Please enter a valid email address.");
     return;
 }
+    if (firstName.trim().length < 2) {
+    alert("First Name must contain at least 2 characters.");
+    return;
+}
+
+if (lastName.trim().length < 2) {
+    alert("Last Name must contain at least 2 characters.");
+    return;
+}
+
+if (
+    firstName.trim().toLowerCase() ===
+    lastName.trim().toLowerCase()
+) {
+    alert("First Name and Last Name cannot be the same.");
+    return;
+}
     // Send data to Google Sheets via Apps Script
     fetch(
         "https://script.google.com/macros/s/AKfycbx0M2sPOjP4ns1Hd1YmtLTy-_g9cq9qcxfQsAuY1zChSkT6Uid3-SLfUyNMKqLuyy2_RA/exec",
