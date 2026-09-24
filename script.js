@@ -1,18 +1,21 @@
-function d*wnloadPdf() {
+function downloadPdf() {
 
-    const firstName*= document.getElementById("firstna*e").value;
-    const lastName = do*ument.getElementById("lastname").v*lue;
-    const company = document.*etElementById("company").value;
-  * const email = document.getElement*yId("email").value;
+    const firstName = document.getElementById("firstname").value;
+    const lastName = document.getElementById("lastname").value;
+    const company = document.getElementById("company").value;
+    const email = document.getElementById("email").value;
 
-    if (!firs*Name || !lastName || !company || !*mail) {
-        alert("Please comp*ete all fields.");
-        return;*    }
+    if (!firstName || !lastName || !company || !email) {
+        alert("Please complete all fields.");
+        return;
+    }
 
-    alert(
-        "First N*me: " + firstName +
-        "\nLas* Name: " + lastName +
-        "\nC*mpany: " + company +
-        "\nEm*il: " + email
-    );
+    const link = document.createElement("a");
+
+    link.href = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN ONEPAGER ENG.pdf";
+    link.download = "MULTI-LEVEL-INVERTER-ARCHITEKTUREN ONEPAGER ENG.pdf";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
