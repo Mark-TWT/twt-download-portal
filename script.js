@@ -10,6 +10,7 @@ function downloadPdf() {
         return;
     }
 
+    // Send data to Google Sheets via Apps Script
     fetch(
         "https://script.google.com/macros/s/AKfycbx0M2sPOjP4ns1Hd1YmtLTy-_g9cq9qcxfQsAuY1zChSkT6Uid3-SLfUyNMKqLuyy2_RA/exec",
         {
@@ -26,6 +27,7 @@ function downloadPdf() {
         }
     );
 
+    // Download PDF
     const a = document.createElement("a");
 
     a.href = "Whitepaper.pdf";
