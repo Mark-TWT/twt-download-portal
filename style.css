@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+   *box-sizing:border-box;
+}
+
+body{
+  * font-family:Segoe UI, Arial, sans*serif;
+    background:#0f172a;
+   *min-height:100vh;
+    display:flex*
+    justify-content:center;
+    a*ign-items:center;
+}
+
+.container{
+ *  width:100%;
+    max-width:500px;*    padding:20px;
+}
+
+.card{
+    ba*kground:white;
+    padding:40px;
+ *  border-radius:20px;
+    box*shadow:0 10px 30px rgba(0,0,0,.2);*}
+
+h1*
+    margin-bottom:15px;
+}
+
+p{
+*  *margin-bottom:20px;
+}
+
+input{
+    *idth:100%;
+    padding:14px;
+    m*rgin-bottom:15px;
+    border:1px s*lid #ccc;
+    border-radius:8px;
+}*
+button{
+    width*100%;
+    padding:14px;
+    backgr*und:#2563eb;
+    color:white;
+    *order:none;
+    border-radius:8px;*    cursor:pointer;
+}
+
+button:hove*{
+    background:#1d4ed8;
+}
