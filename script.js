@@ -10,14 +10,14 @@ function downloadPdf() {
         return;
     }
 
-    fetch(
-        "https://script.google.com/macros/s/AKfycbz3pTOd8QhUKqSCXEFj4nRox05oY3O3owcZw41yfsoUFabrovUR-QGcHgEP0bFgNpuYbA/exec",
-        {
-            method: "POST",
-            mode: "no-cors",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
-            },
+    const a = document.createElement("a");
+    a.href = "whitepaper.pdf";
+    a.download = "TWT-Whitepaper.pdf";
+
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
             body:
                 "firstname=" + encodeURIComponent(firstName) +
                 "&lastname=" + encodeURIComponent(lastName) +
