@@ -9,7 +9,12 @@ function downloadPdf() {
         alert("Please complete all fields.");
         return;
     }
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return;
+}
     // Send data to Google Sheets via Apps Script
     fetch(
         "https://script.google.com/macros/s/AKfycbx0M2sPOjP4ns1Hd1YmtLTy-_g9cq9qcxfQsAuY1zChSkT6Uid3-SLfUyNMKqLuyy2_RA/exec",
