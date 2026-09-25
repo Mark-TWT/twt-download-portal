@@ -4,7 +4,7 @@ function downloadPdf() {
     const lastName = document.getElementById("lastname").value;
     const company = document.getElementById("company").value;
     const email = document.getElementById("email").value;
-
+    const gdpr = document.getElementById("gdpr");
     if (!firstName || !lastName || !company || !email) {
         alert("Please complete all fields.");
         return;
@@ -13,6 +13,10 @@ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 if (!emailPattern.test(email)) {
     alert("Please enter a valid email address.");
+    return;
+}
+    if (!gdpr.checked) {
+    alert("Please accept the privacy consent.");
     return;
 }
     if (firstName.trim().length < 2) {
