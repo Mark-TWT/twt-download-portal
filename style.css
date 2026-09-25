@@ -88,21 +88,21 @@ button:hover{
     cursor:pointer;
 }
 .gdpr-container{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:8px;
-margin-bottom:20px;
+    margin-bottom:20px;
 }
- 
-.gdpr-container input[type="checkbox"]{
-width:16px;
-height:16px;
-margin:0;
+
+.gdpr-label{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-size:14px;
+    color:#555;
+    cursor:pointer;
 }
- 
-.gdpr-container label{
-margin:0;
-font-size:14px;
-color:#555;
+
+.gdpr-label input{
+    width:18px;
+    height:18px;
+    margin:0;
 }
