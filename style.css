@@ -92,9 +92,8 @@ button:hover{
 }
 
 .gdpr-label{
-    display:flex;
+    display:inline-flex;
     align-items:center;
-    justify-content:center;
     gap:10px;
     font-size:14px;
     color:#555;
@@ -102,7 +101,12 @@ button:hover{
 }
 
 .gdpr-label input{
-    width:18px;
-    height:18px;
-    margin:0;
+
+    width:18px !important;
+    height:18px !important;
+    min-width:18px !important;
+
+    padding:0 !important;
+    margin:0 !important;
+
 }
