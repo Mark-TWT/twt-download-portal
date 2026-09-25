@@ -69,10 +69,8 @@ button:hover{
     background:#1d4ed8;
 }
 .logo{
-    position:fixed;
-    top:30px;
-    right:30px;
-    width:180px;
+    display:block;
+    width:140px;
     height:auto;
-    z-index:1000;
+    margin:0 auto 30px auto;
 }
