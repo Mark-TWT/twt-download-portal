@@ -15,7 +15,9 @@ if (!emailPattern.test(email)) {
     alert("Please enter a valid email address.");
     return;
 }
-    if (!gdpr.checked) {
+    alert("GDPR status = " + gdpr.checked);
+
+if (!gdpr.checked) {
     alert("Please accept the privacy consent.");
     return;
 }
