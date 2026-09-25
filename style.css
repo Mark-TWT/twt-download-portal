@@ -87,3 +87,22 @@ button:hover{
     display:block;
     cursor:pointer;
 }
+.gdpr-container{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:10px;
+    margin-bottom:20px;
+    text-align:left;
+}
+
+.gdpr-container input{
+    width:auto;
+    margin:0;
+}
+
+.gdpr-container label{
+    margin:0;
+    font-size:14px;
+    color:#555;
+}
