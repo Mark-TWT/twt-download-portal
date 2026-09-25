@@ -68,3 +68,11 @@ button{
 button:hover{
     background:#1d4ed8;
 }
+.logo{
+    position:fixed;
+    top:30px;
+    right:30px;
+    width:180px;
+    height:auto;
+    z-index:1000;
+}
