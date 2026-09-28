@@ -132,7 +132,13 @@ h2{
     margin-bottom:30px;
 }
 @media (max-width: 768px){
+.main-title span:first-child{
+    font-size:42px;
+}
 
+.main-title span:last-child{
+    font-size:22px;
+}
     .card{
         padding:30px 20px;
     }
