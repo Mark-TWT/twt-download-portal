@@ -182,3 +182,18 @@ h2{
         font-size:12px;
     }
 }
+@media (max-width: 768px){
+
+    .logo{
+        position:relative;
+        display:block;
+        width:80px;
+        margin:20px auto;
+        left:auto;
+        top:auto;
+    }
+
+    body{
+        flex-direction:column;
+    }
+}
