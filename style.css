@@ -82,15 +82,17 @@ button:hover{
 }
 .logo{
     position:fixed;
-    top:30px;
-    left:30px;
 
-    width:120px;
+    top:20px;
+    left:20px;
+
+    width:140px;
     height:auto;
 
     cursor:pointer;
     z-index:1000;
 }
+``
 
 .gdpr-container{
     margin-bottom:20px;
