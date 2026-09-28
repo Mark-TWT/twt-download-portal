@@ -10,8 +10,12 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#0f172a,#1e3a8a);
     padding:20px;
+
+    background-image:url("background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .container{
