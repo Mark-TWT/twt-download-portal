@@ -195,7 +195,15 @@ h2{
     }
 }
 @media (max-width: 768px){
+.main-title span:first-child{
+    display:block;
+    font-size:42px;
+}
 
+.main-title span:last-child{
+    display:block;
+    font-size:22px;
+}
     .logo{
         position:relative;
         display:block;
