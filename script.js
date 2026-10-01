@@ -4,6 +4,8 @@ function downloadPdf() {
     const lastName = document.getElementById("lastname").value;
     const company = document.getElementById("company").value;
     const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+const comments = document.getElementById("comments").value;
     const gdpr = document.getElementById("gdpr");
     if (!firstName || !lastName || !company || !email) {
         alert("Please complete all fields.");
