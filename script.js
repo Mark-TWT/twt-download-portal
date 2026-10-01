@@ -48,11 +48,14 @@ if (
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body:
-                "firstname=" + encodeURIComponent(firstName) +
-                "&lastname=" + encodeURIComponent(lastName) +
-                "&company=" + encodeURIComponent(company) +
-                "&email=" + encodeURIComponent(email)
+          body:
+
+    "firstname=" + encodeURIComponent(firstName) +
+    "&lastname=" + encodeURIComponent(lastName) +
+    "&company=" + encodeURIComponent(company) +
+    "&email=" + encodeURIComponent(email) +
+    "&phone=" + encodeURIComponent(phone) +
+    "&comments=" + encodeURIComponent(comments)
         }
     );
 
