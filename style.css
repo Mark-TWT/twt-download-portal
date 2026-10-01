@@ -40,7 +40,8 @@ p{
     margin-bottom:30px;
 }
 
-input{
+input,
+textarea{
     width:100%;
     padding:15px;
     margin-bottom:15px;
@@ -49,10 +50,8 @@ input{
     font-size:16px;
 }
 
-input:focus{
-    outline:none;
-    border-color:#2563eb;
-}
+input:focus,
+textarea:focus{
 
 button{
     width:100%;
@@ -219,4 +218,8 @@ h2{
 }
 .main-title span{
     display:block;
+}
+textarea{
+    min-height:120px;
+    resize:vertical;
 }
