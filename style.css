@@ -9,7 +9,7 @@ body{
     min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     padding:20px;
 
     background-image:url("background.png");
@@ -21,6 +21,7 @@ body{
 .container{
     width:100%;
     max-width:800px;
+    margin-top:60px;
 }
 
 .card{
