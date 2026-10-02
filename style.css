@@ -220,6 +220,11 @@ h2{
     body{
         flex-direction:column;
     }
+    .slogan{
+    font-size:28px;
+    right:15px;
+    bottom:15px;
+}
 }
 .main-title span{
     display:block;
@@ -227,4 +232,21 @@ h2{
 textarea{
     min-height:50px;
     resize:vertical;
+}
+.slogan{
+    position:fixed;
+
+    bottom:30px;
+    right:40px;
+
+    font-size:60px;
+    font-weight:300;
+
+    color:rgba(17,24,39,0.45);
+
+    letter-spacing:2px;
+
+    z-index:1;
+
+    pointer-events:none;
 }
