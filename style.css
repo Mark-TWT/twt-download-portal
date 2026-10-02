@@ -58,6 +58,8 @@ border-color:#2563eb;
 }
 
 button{
+    margin-top:25px;
+
     width:100%;
     padding:15px;
     background:#2563eb;
@@ -69,7 +71,6 @@ button{
     cursor:pointer;
     transition:.3s;
 }
-
 button:hover{
     background:#1d4ed8;
 }
