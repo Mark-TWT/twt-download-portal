@@ -220,10 +220,19 @@ h2{
     body{
         flex-direction:column;
     }
-    .slogan{
-    font-size:28px;
-    right:15px;
-    bottom:15px;
+   .slogan{
+    position:static;
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:25px;
+    margin-bottom:15px;
+
+    font-size:24px;
+
+    color:rgba(17,24,39,0.35);
 }
 }
 .main-title span{
