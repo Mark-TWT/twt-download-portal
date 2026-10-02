@@ -199,6 +199,7 @@ h2{
     }
 }
 @media (max-width: 768px){
+
 .main-title span:first-child{
     display:block;
     font-size:42px;
@@ -208,31 +209,42 @@ h2{
     display:block;
     font-size:22px;
 }
-    .logo{
-        position:relative;
-        display:block;
-        width:80px;
-        margin:20px auto;
-        left:auto;
-        top:auto;
-    }
 
-    body{
-        flex-direction:column;
-    }
-   .slogan{
-    position:static;
+.logo{
+    position:relative;
+    display:block;
+    width:80px;
+    margin:20px auto;
+    left:auto;
+    top:auto;
+}
+
+body{
+    flex-direction:column;
+}
+
+.slogan{
+    position:relative !important;
 
     display:block;
 
+    width:100%;
+
     text-align:center;
 
-    margin-top:25px;
-    margin-bottom:15px;
+    margin-top:20px;
+    margin-bottom:20px;
 
     font-size:20px;
 
     color:rgba(17,24,39,0.35);
+
+    bottom:auto !important;
+    right:auto !important;
+    left:auto !important;
+
+    z-index:auto !important;
+}
 }
 }
 .main-title span{
