@@ -62,8 +62,8 @@ if (
     // Download PDF
     const a = document.createElement("a");
 
-a.href = "TWT-readmore.pdf";
-a.download = "TWT-readmore.pdf";
+a.href = "TWT-read-more.pdf";
+a.download = "TWT-read-more.pdf";
 
     document.body.appendChild(a);
     a.click();
